@@ -26,8 +26,8 @@ export const Works = () => {
   const classes = useStyles();
   const [projects, setProjects] = useState([
     { 
-      id: 1,
-      title: 'React Portfolio', 
+      id: 2020,
+      title: 'Cloud Solutions Architect', 
       description: `Designed and developed a ReactJS portfolio 
       with fancy 3D animations using Three.js for 
       the background element.`,
@@ -80,7 +80,7 @@ export const Works = () => {
             </div>
             <div className="__content_wrapper">
               <h3 className="title">
-                <TextDecrypt text={ project.id + '. ' + project.title } />
+                <TextDecrypt text={ project.title } />
               </h3>
               <p className="description">
                 { project.description }

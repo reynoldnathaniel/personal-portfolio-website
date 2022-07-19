@@ -7,7 +7,7 @@ import { FirstName, LastName } from "../../utils/getName";
 
 import './About.css';
 
-import profile from '../../assets/profile.png';
+import profile from '../../assets/profile.jpeg';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -20,10 +20,10 @@ const useStyles = makeStyles((theme) => ({
 export const About = () => {
   const classes = useStyles();
   const greetings = "Hello there!";
-  const aboutme = `I'm ${FirstName} ${LastName}, a multidisciplinary 
-                  designer & developer. I'm always down for something new and challenging!
-                  I'm here to help you create beautifully formatted websites. 
-                  My projects mostly includes web development.`;
+  const aboutme = `I'm ${FirstName} ${LastName}, a Cloud Solutions Architect and Machine Learning Enthusiast
+                  . I'm always down for something new and challenging!
+                  I love creating solutions in cloud and finding the best solution for the problem. 
+                  My projects is mostly helping customers and stakeholders to build their IT infrastructure in AWS using Serverless and Machine Learning!`;
 
   return (
     <section id="about">
